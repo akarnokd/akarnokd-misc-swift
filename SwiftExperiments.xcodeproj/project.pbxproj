@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		9F1983251E1E8B3400C03E7D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1983241E1E8B3400C03E7D /* main.swift */; };
 		9FE5F1761E1EA2450077FF8B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 9FE5F1751E1EA2450077FF8B /* README.md */; };
+		9FF7BBB81E1EF50B00705BF1 /* ReactiveStreams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7BBB71E1EF50B00705BF1 /* ReactiveStreams.swift */; };
+		9FF7BBBA1E1F036D00705BF1 /* OperatorFusion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7BBB91E1F036D00705BF1 /* OperatorFusion.swift */; };
+		9FF7BBBC1E1F081900705BF1 /* SubscriptionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FF7BBBB1E1F081900705BF1 /* SubscriptionHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +33,9 @@
 		9FE5F1741E1EA2450077FF8B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		9FE5F1751E1EA2450077FF8B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		9FE5F1771E1EA2730077FF8B /* files */ = {isa = PBXFileReference; lastKnownFileType = folder; path = files; sourceTree = "<group>"; };
+		9FF7BBB71E1EF50B00705BF1 /* ReactiveStreams.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReactiveStreams.swift; sourceTree = "<group>"; };
+		9FF7BBB91E1F036D00705BF1 /* OperatorFusion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperatorFusion.swift; sourceTree = "<group>"; };
+		9FF7BBBB1E1F081900705BF1 /* SubscriptionHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubscriptionHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				9F1983241E1E8B3400C03E7D /* main.swift */,
+				9FF7BBB71E1EF50B00705BF1 /* ReactiveStreams.swift */,
+				9FF7BBB91E1F036D00705BF1 /* OperatorFusion.swift */,
+				9FF7BBBB1E1F081900705BF1 /* SubscriptionHelper.swift */,
 			);
 			path = SwiftExperiments;
 			sourceTree = "<group>";
@@ -131,6 +140,9 @@
 			files = (
 				9FE5F1761E1EA2450077FF8B /* README.md in Sources */,
 				9F1983251E1E8B3400C03E7D /* main.swift in Sources */,
+				9FF7BBB81E1EF50B00705BF1 /* ReactiveStreams.swift in Sources */,
+				9FF7BBBA1E1F036D00705BF1 /* OperatorFusion.swift in Sources */,
+				9FF7BBBC1E1F081900705BF1 /* SubscriptionHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
